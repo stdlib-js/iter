@@ -21,10 +21,10 @@
 'use strict';
 
 var randu = require( '@stdlib/random/iter/randu' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterMap = require( '@stdlib/iter/map' );
-var iterSome = require( '@stdlib/iter/some' );
-var iterPipeline = require( '@stdlib/iter/pipeline' );
+var iterHead = require( './../../head' );
+var iterMap = require( './../../map' );
+var iterSome = require( './../../some' );
+var iterPipeline = require( './../../pipeline' );
 var iterThunk = require( './../lib' );
 
 function threshold( r ) {

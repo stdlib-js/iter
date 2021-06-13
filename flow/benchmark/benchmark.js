@@ -26,8 +26,8 @@ var isIteratorLike = require( '@stdlib/assert/is-iterator-like' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
 var randu = require( '@stdlib/random/iter/randu' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterSomeBy = require( '@stdlib/iter/some-by' );
+var iterHead = require( './../../head' );
+var iterSomeBy = require( './../../some-by' );
 var pkg = require( './../package.json' ).name;
 var iterFlow = require( './../lib' );
 

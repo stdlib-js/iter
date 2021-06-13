@@ -24,9 +24,9 @@ var bench = require( '@stdlib/bench' );
 var isFunction = require( '@stdlib/assert/is-function' );
 var isBoolean = require( '@stdlib/assert/is-boolean' ).isPrimitive;
 var randu = require( '@stdlib/random/iter/randu' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterSomeBy = require( '@stdlib/iter/some-by' );
-var iterThunk = require( '@stdlib/iter/pipeline-thunk' );
+var iterHead = require( './../../head' );
+var iterSomeBy = require( './../../some-by' );
+var iterThunk = require( './../../pipeline-thunk' );
 var pkg = require( './../package.json' ).name;
 var iterPipeline = require( './../lib' );
 

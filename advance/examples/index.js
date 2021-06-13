@@ -19,7 +19,7 @@
 'use strict';
 
 var randu = require( '@stdlib/random/iter/randu' );
-var iterLength = require( '@stdlib/iter/length' );
+var iterLength = require( './../../length' );
 var iterAdvance = require( './../lib' );
 
 // Create an iterator which generates uniformly distributed pseudorandom numbers:

@@ -19,8 +19,8 @@
 'use strict';
 
 var array2iterator = require( '@stdlib/array/to-iterator' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterSome = require( '@stdlib/iter/some' );
+var iterHead = require( './../../head' );
+var iterSome = require( './../../some' );
 var iterFlow = require( './../lib' );
 
 // Create a "fluent" interface:

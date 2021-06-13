@@ -17,8 +17,8 @@
 */
 
 import array2iterator = require( '@stdlib/array/to-iterator' );
-import iterHead = require( '@stdlib/iter/head' );
-import iterSome = require( '@stdlib/iter/some' );
+import iterHead = require( './../../../head' );
+import iterSome = require( './../../../some' );
 import iterFlow = require( './index' );
 
 

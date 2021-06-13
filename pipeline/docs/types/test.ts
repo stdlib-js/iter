@@ -16,8 +16,8 @@
 * limitations under the License.
 */
 
-import iterFirst = require( '@stdlib/iter/first' );
-import iterNone = require( '@stdlib/iter/none' );
+import iterFirst = require( './../../../first' );
+import iterNone = require( './../../../none' );
 import iterPipeline = require( './index' );
 
 

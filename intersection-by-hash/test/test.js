@@ -27,7 +27,7 @@ var proxyquire = require( 'proxyquire' );
 var discreteUniform = require( '@stdlib/random/iter/discrete-uniform' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var iterEmpty = require( '@stdlib/iter/empty' );
+var iterEmpty = require( './../../empty' );
 var iterIntersectionByHash = require( './../lib' );
 
 

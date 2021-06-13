@@ -22,9 +22,9 @@
 
 var tape = require( 'tape' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterSome = require( '@stdlib/iter/some' );
-var iterThunk = require( '@stdlib/iter/pipeline-thunk' );
+var iterHead = require( './../../head' );
+var iterSome = require( './../../some' );
+var iterThunk = require( './../../pipeline-thunk' );
 var iterPipeline = require( './../lib' );
 
 

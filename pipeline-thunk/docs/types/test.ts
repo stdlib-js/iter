@@ -16,7 +16,7 @@
 * limitations under the License.
 */
 
-import iterSome = require( '@stdlib/iter/some' );
+import iterSome = require( './../../../some' );
 import iterThunk = require( './index' );
 
 /**

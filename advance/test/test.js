@@ -22,7 +22,7 @@
 
 var tape = require( 'tape' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
-var iterLength = require( '@stdlib/iter/length' );
+var iterLength = require( './../../length' );
 var iterAdvance = require( './../lib' );
 
 

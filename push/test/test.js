@@ -23,7 +23,7 @@
 var tape = require( 'tape' );
 var proxyquire = require( 'proxyquire' );
 var randu = require( '@stdlib/random/iter/randu' );
-var iterEmpty = require( '@stdlib/iter/empty' );
+var iterEmpty = require( './../../empty' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
 var iterPush = require( './../lib' );

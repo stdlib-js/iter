@@ -19,7 +19,7 @@
 'use strict';
 
 var discreteUniform = require( '@stdlib/random/iter/discrete-uniform' );
-var iterMap = require( '@stdlib/iter/map' );
+var iterMap = require( './../../map' );
 var iterUniqueByHash = require( './../lib' );
 
 function mapFcn( v ) {

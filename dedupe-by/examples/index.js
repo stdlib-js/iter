@@ -19,7 +19,7 @@
 'use strict';
 
 var randi = require( '@stdlib/random/iter/discrete-uniform' );
-var iterDedupe = require( '@stdlib/iter/dedupe' );
+var iterDedupe = require( './../../dedupe' );
 var iterDedupeBy = require( './../lib' );
 
 function fcn( curr, sprev, dprev, i, acc ) {

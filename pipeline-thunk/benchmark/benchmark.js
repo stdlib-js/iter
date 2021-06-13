@@ -22,7 +22,7 @@
 
 var bench = require( '@stdlib/bench' );
 var isFunction = require( '@stdlib/assert/is-function' );
-var iterSome = require( '@stdlib/iter/some' );
+var iterSome = require( './../../some' );
 var pkg = require( './../package.json' ).name;
 var iterThunk = require( './../lib' );
 

@@ -25,8 +25,8 @@ var proxyquire = require( 'proxyquire' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var randu = require( '@stdlib/random/iter/randu' );
-var iterHead = require( '@stdlib/iter/head' );
-var iterSome = require( '@stdlib/iter/some' );
+var iterHead = require( './../../head' );
+var iterSome = require( './../../some' );
 var iterFlow = require( './../lib' );
 
 

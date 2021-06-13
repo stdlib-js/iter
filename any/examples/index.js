@@ -19,7 +19,7 @@
 'use strict';
 
 var randu = require( '@stdlib/random/iter/randu' );
-var iterMap = require( '@stdlib/iter/map' );
+var iterMap = require( './../../map' );
 var iterAny = require( './../lib' );
 
 function threshold( r ) {

@@ -25,7 +25,7 @@ var proxyquire = require( 'proxyquire' );
 var randu = require( '@stdlib/random/iter/randu' );
 var array2iterator = require( '@stdlib/array/to-iterator' );
 var iteratorSymbol = require( '@stdlib/symbol/iterator' );
-var iterCounter = require( '@stdlib/iter/counter' );
+var iterCounter = require( './../../counter' );
 var iterDedupe = require( './../lib' );
 
 
