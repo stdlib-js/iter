@@ -180,11 +180,46 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]: create (or fill) an array from an iterator.
+-   [`@stdlib/iter/datespace`][@stdlib/iter/datespace]: create an iterator which returns evenly spaced dates over a specified interval.
+-   [`@stdlib/iter/linspace`][@stdlib/iter/linspace]: create an iterator which returns evenly spaced numbers over a specified interval.
+-   [`@stdlib/iter/logspace`][@stdlib/iter/logspace]: create an iterator which returns evenly spaced numbers on a log scale.
+-   [`@stdlib/iter/step`][@stdlib/iter/step]: create an iterator which returns a sequence of numbers according to a specified increment.
+-   [`@stdlib/iter/unitspace`][@stdlib/iter/unitspace]: create an iterator which returns numbers incremented by one.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 
 [@stdlib/math/base/special/roundn]: https://github.com/stdlib-js/math-base-special-roundn
+
+<!-- <related-links> -->
+
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
+
+[@stdlib/iter/datespace]: https://github.com/stdlib-js/iter/tree/main/datespace
+
+[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter/tree/main/linspace
+
+[@stdlib/iter/logspace]: https://github.com/stdlib-js/iter/tree/main/logspace
+
+[@stdlib/iter/step]: https://github.com/stdlib-js/iter/tree/main/step
+
+[@stdlib/iter/unitspace]: https://github.com/stdlib-js/iter/tree/main/unitspace
+
+<!-- </related-links> -->
 
 </section>
 

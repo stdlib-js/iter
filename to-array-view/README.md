@@ -217,9 +217,35 @@ for ( i = 0; i < arr.length; i++ ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]: create (or fill) an array from an iterator.
+-   [`@stdlib/array/to-view-iterator`][@stdlib/array/to-view-iterator]: create an iterator from an array-like object view.
+-   [`@stdlib/iter/to-array-view-right`][@stdlib/iter/to-array-view-right]: fill an array-like object view from right to left with values returned from an iterator.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
+
+[@stdlib/array/to-view-iterator]: https://github.com/stdlib-js/array-to-view-iterator
+
+[@stdlib/iter/to-array-view-right]: https://github.com/stdlib-js/iter/tree/main/to-array-view-right
+
+<!-- </related-links> -->
 
 </section>
 

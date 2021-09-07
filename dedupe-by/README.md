@@ -226,11 +226,34 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/dedupe`][@stdlib/iter/dedupe]: create an iterator which removes consecutive duplicated values.
+-   [`@stdlib/iter/unique`][@stdlib/iter/unique]: create an iterator which returns unique values.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/dedupe]: https://github.com/stdlib-js/iter/tree/main/dedupe
+
+[@stdlib/iter/unique]: https://github.com/stdlib-js/iter/tree/main/unique
+
+<!-- </related-links> -->
 
 </section>
 

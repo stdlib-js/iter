@@ -112,9 +112,29 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/constant`][@stdlib/iter/constant]: create an iterator which always returns the same value.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/iter/constant]: https://github.com/stdlib-js/iter/tree/main/constant
+
+<!-- </related-links> -->
 
 </section>
 

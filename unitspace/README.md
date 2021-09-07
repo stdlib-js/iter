@@ -138,9 +138,38 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/array/from-iterator`][@stdlib/array/from-iterator]: create (or fill) an array from an iterator.
+-   [`@stdlib/iter/incrspace`][@stdlib/iter/incrspace]: create an iterator which returns evenly spaced numbers according to a specified increment.
+-   [`@stdlib/iter/linspace`][@stdlib/iter/linspace]: create an iterator which returns evenly spaced numbers over a specified interval.
+-   [`@stdlib/iter/step`][@stdlib/iter/step]: create an iterator which returns a sequence of numbers according to a specified increment.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/array/from-iterator]: https://github.com/stdlib-js/array-from-iterator
+
+[@stdlib/iter/incrspace]: https://github.com/stdlib-js/iter/tree/main/incrspace
+
+[@stdlib/iter/linspace]: https://github.com/stdlib-js/iter/tree/main/linspace
+
+[@stdlib/iter/step]: https://github.com/stdlib-js/iter/tree/main/step
+
+<!-- </related-links> -->
 
 </section>
 

@@ -128,11 +128,34 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/first`][@stdlib/iter/first]: return the first iterated value.
+-   [`@stdlib/iter/slice`][@stdlib/iter/slice]: create an iterator which returns a subsequence of iterated values from a provided iterator.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/first]: https://github.com/stdlib-js/iter/tree/main/first
+
+[@stdlib/iter/slice]: https://github.com/stdlib-js/iter/tree/main/slice
+
+<!-- </related-links> -->
 
 </section>
 

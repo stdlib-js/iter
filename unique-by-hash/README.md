@@ -208,11 +208,34 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/unique`][@stdlib/iter/unique]: create an iterator which returns unique values.
+-   [`@stdlib/iter/unique-by`][@stdlib/iter/unique-by]: create an iterator which returns unique values according to a predicate function.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/unique]: https://github.com/stdlib-js/iter/tree/main/unique
+
+[@stdlib/iter/unique-by]: https://github.com/stdlib-js/iter/tree/main/unique-by
+
+<!-- </related-links> -->
 
 </section>
 

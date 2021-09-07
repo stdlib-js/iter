@@ -204,9 +204,29 @@ while ( true ) {
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/map`][@stdlib/iter/map]: create an iterator which invokes a function for each iterated value.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
+
+<!-- <related-links> -->
+
+[@stdlib/iter/map]: https://github.com/stdlib-js/iter/tree/main/map
+
+<!-- </related-links> -->
 
 </section>
 

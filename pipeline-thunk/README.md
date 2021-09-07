@@ -160,6 +160,20 @@ console.log( '%d of %d', count, N );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/pipeline`][@stdlib/iter/pipeline]: create an iterator pipeline.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
@@ -167,6 +181,12 @@ console.log( '%d of %d', count, N );
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
 
 [@stdlib/utils/papply]: https://github.com/stdlib-js/utils-papply
+
+<!-- <related-links> -->
+
+[@stdlib/iter/pipeline]: https://github.com/stdlib-js/iter/tree/main/pipeline
+
+<!-- </related-links> -->
 
 </section>
 

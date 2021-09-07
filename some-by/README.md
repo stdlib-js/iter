@@ -155,11 +155,43 @@ console.log( bool );
 
 <!-- /.references -->
 
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+* * *
+
+## See Also
+
+-   [`@stdlib/iter/any-by`][@stdlib/iter/any-by]: test whether at least one iterated value passes a test implemented by a predicate function.
+-   [`@stdlib/iter/every-by`][@stdlib/iter/every-by]: test whether every iterated value passes a test implemented by a predicate function.
+-   [`@stdlib/iter/for-each`][@stdlib/iter/for-each]: create an iterator which invokes a function for each iterated value before returning the iterated value.
+-   [`@stdlib/iter/none-by`][@stdlib/iter/none-by]: test whether every iterated value fails a test implemented by a predicate function.
+-   [`@stdlib/iter/some`][@stdlib/iter/some]: test whether at least `n` iterated values are truthy.
+
+</section>
+
+<!-- /.related -->
+
 <!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 <section class="links">
 
 [mdn-iterator-protocol]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#The_iterator_protocol
+
+<!-- <related-links> -->
+
+[@stdlib/iter/any-by]: https://github.com/stdlib-js/iter/tree/main/any-by
+
+[@stdlib/iter/every-by]: https://github.com/stdlib-js/iter/tree/main/every-by
+
+[@stdlib/iter/for-each]: https://github.com/stdlib-js/iter/tree/main/for-each
+
+[@stdlib/iter/none-by]: https://github.com/stdlib-js/iter/tree/main/none-by
+
+[@stdlib/iter/some]: https://github.com/stdlib-js/iter/tree/main/some
+
+<!-- </related-links> -->
 
 </section>
 
