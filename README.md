@@ -22,7 +22,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library iterator utilities.
+> Iterator utilities.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var ns = require( '@stdlib/iter' );
 
 #### ns
 
-Standard library iterator utilities.
+Namespace containing iterator utilities.
 
 ```javascript
 var objectKeys = require( '@stdlib/utils/keys' );
