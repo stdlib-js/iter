@@ -36,6 +36,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
+    "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
     "@stdlib/math": "github:stdlib-js/math#main",
@@ -44,10 +45,11 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/array": "github:stdlib-js/array",
     "@stdlib/bench": "github:stdlib-js/bench",
+    "@stdlib/complex": "github:stdlib-js/complex",
     "@stdlib/random": "github:stdlib-js/random",
     "@stdlib/simulate": "github:stdlib-js/simulate",
+    "@stdlib/strided": "github:stdlib-js/strided",
     "@stdlib/string": "github:stdlib-js/string",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
