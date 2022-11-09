@@ -24,30 +24,20 @@ limitations under the License.
 
 > Iterator utilities.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/iter
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-var ns = require( '@stdlib/iter' );
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
+```
+
+You can also import the following named exports from the package:
+
+```javascript
+import { iterAdvance, iterAny, iterAnyBy, iterConcat, iterConstant, iterCounter, iterDatespace, iterDedupe, iterDedupeBy, iterEmpty, iterEvery, iterEveryBy, iterFill, iterFilter, iterFilterMap, iterFirst, iterFlow, iterForEach, iterHead, iterIncrspace, iterIntersection, iterIntersectionByHash, iterLast, iterLength, iterLinspace, iterLogspace, iterMap, iterMapN, iterNone, iterNoneBy, iterNth, iterPipeline, iterPop, iterPush, iterReject, iterReplicate, iterReplicateBy, iterShift, iterSlice, iterSome, iterSomeBy, iterStep, iterStrided, iterStridedBy, iterThunk, iterUnion, iterUnique, iterUniqueBy, iterUniqueByHash, iterUnitspace, iterUnshift, iterator2arrayview, iterator2arrayviewRight } from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
 ```
 
 #### ns
@@ -55,7 +45,7 @@ var ns = require( '@stdlib/iter' );
 Namespace containing iterator utilities.
 
 ```javascript
-var objectKeys = require( '@stdlib/utils/keys' );
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
 
 var keys = objectKeys( ns );
 // e.g., returns [ 'iterAny', 'iterAnyBy', ... ]
@@ -133,13 +123,18 @@ var keys = objectKeys( ns );
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils/keys' );
-var uncapitalize = require( '@stdlib/string/uncapitalize' );
-var replace = require( '@stdlib/string/replace' );
-var contains = require( '@stdlib/assert/contains' );
-var randu = require( '@stdlib/random/iter/randu' );
-var ns = require( '@stdlib/iter' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="module">
+
+import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
+import uncapitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/uncapitalize@esm/index.mjs';
+import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/replace@esm/index.mjs';
+import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/contains@esm/index.mjs';
+import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random/iter/randu@esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
 
 // Create a fluent interface for chaining together iterator operations...
 
@@ -198,6 +193,10 @@ while ( true ) {
         break;
     }
 }
+
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -221,7 +220,7 @@ while ( true ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
