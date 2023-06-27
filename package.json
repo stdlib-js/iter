@@ -46,11 +46,11 @@
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
-    "@stdlib/bench": "github:stdlib-js/bench",
-    "@stdlib/complex": "github:stdlib-js/complex",
-    "@stdlib/random": "github:stdlib-js/random",
-    "@stdlib/simulate": "github:stdlib-js/simulate",
-    "@stdlib/strided": "github:stdlib-js/strided",
+    "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/complex": "github:stdlib-js/complex#main",
+    "@stdlib/random": "github:stdlib-js/random#main",
+    "@stdlib/simulate": "github:stdlib-js/simulate#main",
+    "@stdlib/strided": "github:stdlib-js/strided#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
@@ -85,7 +85,7 @@
     "iter"
   ],
   "funding": {
-    "type": "patreon",
-    "url": "https://www.patreon.com/athan"
+    "type": "opencollective",
+    "url": "https://opencollective.com/stdlib"
   }
 }
