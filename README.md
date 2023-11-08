@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.1.1-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterAdvance, iterAny, iterAnyBy, iterConcat, iterConstant, iterCounter, iterDatespace, iterDedupe, iterDedupeBy, iterEmpty, iterEvery, iterEveryBy, iterFill, iterFilter, iterFilterMap, iterFirst, iterFlow, iterForEach, iterHead, iterIncrspace, iterIntersection, iterIntersectionByHash, iterLast, iterLength, iterLinspace, iterLogspace, iterMap, iterMapN, iterNone, iterNoneBy, iterNth, iterPipeline, iterPop, iterPush, iterReject, iterReplicate, iterReplicateBy, iterShift, iterSlice, iterSome, iterSomeBy, iterStep, iterStrided, iterStridedBy, iterThunk, iterUnion, iterUnique, iterUniqueBy, iterUniqueByHash, iterUnitspace, iterUnshift, iterator2arrayview, iterator2arrayviewRight } from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.1.1-deno/mod.js';
+import { iterAdvance, iterAny, iterAnyBy, iterConcat, iterConstant, iterCounter, iterDatespace, iterDedupe, iterDedupeBy, iterEmpty, iterEvery, iterEveryBy, iterFill, iterFilter, iterFilterMap, iterFirst, iterFlow, iterForEach, iterHead, iterIncrspace, iterIntersection, iterIntersectionByHash, iterLast, iterLength, iterLinspace, iterLogspace, iterMap, iterMapN, iterNone, iterNoneBy, iterNth, iterPipeline, iterPop, iterPush, iterReject, iterReplicate, iterReplicateBy, iterShift, iterSlice, iterSome, iterSomeBy, iterStep, iterStrided, iterStridedBy, iterThunk, iterUnion, iterUnique, iterUniqueBy, iterUniqueByHash, iterUnitspace, iterUnshift, iterator2arrayview, iterator2arrayviewRight } from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@deno/mod.js';
 ```
 
 #### ns
@@ -140,7 +145,7 @@ import uncapitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/uncapital
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/replace@deno/mod.js';
 import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/contains@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random/iter/randu@deno/mod.js';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.1.1-deno/mod.js';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@deno/mod.js';
 
 // Create a fluent interface for chaining together iterator operations...
 
