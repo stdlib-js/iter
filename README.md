@@ -129,6 +129,7 @@ var keys = objectKeys( ns );
 -   <span class="signature">[`iterUnique( iterator )`][@stdlib/iter/unique]</span><span class="delimiter">: </span><span class="description">create an iterator which returns unique values.</span>
 -   <span class="signature">[`iterUnitspace( start[, stop] )`][@stdlib/iter/unitspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns numbers incremented by `1`.</span>
 -   <span class="signature">[`iterUnshift( iterator, ...items )`][@stdlib/iter/unshift]</span><span class="delimiter">: </span><span class="description">create an iterator which prepends values to the beginning of a provided iterator.</span>
+-   <span class="signature">[`whileEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
 
 </div>
 
@@ -399,6 +400,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [@stdlib/iter/unitspace]: https://github.com/stdlib-js/iter/tree/main/unitspace
 
 [@stdlib/iter/unshift]: https://github.com/stdlib-js/iter/tree/main/unshift
+
+[@stdlib/iter/while-each]: https://github.com/stdlib-js/iter/tree/main/while-each
 
 <!-- </toc-links> -->
 
