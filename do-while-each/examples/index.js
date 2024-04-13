@@ -20,7 +20,7 @@
 
 var randu = require( '@stdlib/random/iter/randu' );
 var isnan = require( '@stdlib/math/base/assert/is-nan' );
-var iterDoWhileEach = require( './../../do-while-each/lib' );
+var iterDoWhileEach = require( './../lib' );
 
 function assert( v ) {
 	if ( isnan( v ) ) {
