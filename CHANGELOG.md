@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-06-25)
+## Unreleased (2024-07-07)
 
 <section class="packages">
 
@@ -174,6 +174,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
 -   [`d07da86`](https://github.com/stdlib-js/stdlib/commit/d07da86ff5f95f54ad9816f74d76e1974db67d7a) - **feat:** add `iter/cuany` [(#2440)](https://github.com/stdlib-js/stdlib/pull/2440) _(by Ridam Garg, Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 -   [`57e8762`](https://github.com/stdlib-js/stdlib/commit/57e87620ec449ad73b884e3b4850537df0c494fe) - **chore:** change to relative require paths and fix code style _(by Philipp Burckhardt)_
