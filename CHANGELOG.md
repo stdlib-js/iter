@@ -44,6 +44,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="iter-cusome-unreleased">
+
+#### [@stdlib/iter/cusome](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cusome)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`aa707da`](https://github.com/stdlib-js/stdlib/commit/aa707dadc764119750b191ae951e2e4e66c3010c) - add `iter/cusome` [(#2561)](https://github.com/stdlib-js/stdlib/pull/2561)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2334](https://github.com/stdlib-js/stdlib/issues/2334)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="iter-do-until-each-unreleased">
 
 #### [@stdlib/iter/do-until-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/do-until-each)
@@ -142,9 +176,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 3 issues were closed in this release:
+A total of 4 issues were closed in this release:
 
-[#2331](https://github.com/stdlib-js/stdlib/issues/2331), [##807](#807), [##809 ](#809 )
+[#2331](https://github.com/stdlib-js/stdlib/issues/2331), [#2334](https://github.com/stdlib-js/stdlib/issues/2334), [##807](#807), [##809 ](#809 )
 
 </section>
 
@@ -154,10 +188,11 @@ A total of 3 issues were closed in this release:
 
 ### Contributors
 
-A total of 7 people contributed to this release. Thank you to the following contributors:
+A total of 8 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Chinmay Joshi
+-   Nourhan Hasan
 -   Philipp Burckhardt
 -   Praneki
 -   Raunak Kumar Gupta
@@ -174,6 +209,7 @@ A total of 7 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`aa707da`](https://github.com/stdlib-js/stdlib/commit/aa707dadc764119750b191ae951e2e4e66c3010c) - **feat:** add `iter/cusome` [(#2561)](https://github.com/stdlib-js/stdlib/pull/2561) _(by Nourhan Hasan, Athan Reines)_
 -   [`9d0ce8b`](https://github.com/stdlib-js/stdlib/commit/9d0ce8b3cc0c78a8590d451c18c669f8c0703606) - **docs:** fix doctests _(by Athan Reines)_
 -   [`a3e2023`](https://github.com/stdlib-js/stdlib/commit/a3e20231cb720c6ee1ced6994e381b4db8bea66c) - **bench:** fix assertions _(by Athan Reines)_
 -   [`659f752`](https://github.com/stdlib-js/stdlib/commit/659f752db18317bf5fc237fdbcad0d74b61e1ed9) - **style:** add missing spaces _(by Philipp Burckhardt)_
