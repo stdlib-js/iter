@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.1">
+
+## 0.3.1 (2024-08-18)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.0">
 
 ## 0.3.0 (2024-08-17)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="iter-cuany-unreleased">
+<section class="package" id="iter-cuany-v0.3.0">
 
 #### [@stdlib/iter/cuany](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cuany)
 
@@ -44,7 +54,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cunone-by-unreleased">
+<section class="package" id="iter-cunone-by-v0.3.0">
 
 #### [@stdlib/iter/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cunone-by)
 
@@ -78,7 +88,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cusome-unreleased">
+<section class="package" id="iter-cusome-v0.3.0">
 
 #### [@stdlib/iter/cusome](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cusome)
 
@@ -112,7 +122,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-do-until-each-unreleased">
+<section class="package" id="iter-do-until-each-v0.3.0">
 
 #### [@stdlib/iter/do-until-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/do-until-each)
 
@@ -146,7 +156,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-do-while-each-unreleased">
+<section class="package" id="iter-do-while-each-v0.3.0">
 
 #### [@stdlib/iter/do-while-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/do-while-each)
 
@@ -168,7 +178,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-until-each-unreleased">
+<section class="package" id="iter-until-each-v0.3.0">
 
 #### [@stdlib/iter/until-each](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/until-each)
 
