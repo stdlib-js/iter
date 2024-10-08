@@ -4,22 +4,69 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-28)
+## Unreleased (2024-10-08)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="iter-cunone-unreleased">
+
+#### [@stdlib/iter/cunone](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cunone)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 )
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2333](https://github.com/stdlib-js/stdlib/issues/2333)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#2333](https://github.com/stdlib-js/stdlib/issues/2333)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Aditya Sapra
 -   Philipp Burckhardt
 
 </section>
@@ -32,6 +79,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - **feat:** add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 ) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`08f9c1a`](https://github.com/stdlib-js/stdlib/commit/08f9c1af6dee1cc36cda84b10230500e75d53ff5) - **chore:** minor clean-up _(by Philipp Burckhardt)_
