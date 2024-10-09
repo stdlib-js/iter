@@ -78,6 +78,28 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="iter-cunone-by-unreleased">
+
+#### [@stdlib/iter/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cunone-by)
+
+<details>
+
+<section class="bug-fixes">
+
+##### Bug Fixes
+
+-   [`8d51aeb`](https://github.com/stdlib-js/stdlib/commit/8d51aebea63f63f3d328c7dd5b402b327d52ff8e) - properly increment iteration index
+
+</section>
+
+<!-- /.bug-fixes -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -113,6 +135,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`8d51aeb`](https://github.com/stdlib-js/stdlib/commit/8d51aebea63f63f3d328c7dd5b402b327d52ff8e) - **fix:** properly increment iteration index _(by Philipp Burckhardt)_
 -   [`16b3768`](https://github.com/stdlib-js/stdlib/commit/16b37682c43d8b1223904dac5f31b06637d26796) - **feat:** add `iter/cuevery` [(#2955)](https://github.com/stdlib-js/stdlib/pull/2955) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - **feat:** add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 ) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
