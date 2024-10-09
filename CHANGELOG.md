@@ -168,6 +168,40 @@ This release closes the following issue:
 
 <!-- /.package -->
 
+<section class="package" id="iter-cusome-by-unreleased">
+
+#### [@stdlib/iter/cusome-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cusome-by)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`fd271be`](https://github.com/stdlib-js/stdlib/commit/fd271bef99fe3d5d1ce3c578e10094bce146981e) - add `iter/cusome-by` [(#2826)](https://github.com/stdlib-js/stdlib/pull/2826)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2338](https://github.com/stdlib-js/stdlib/issues/2338)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
@@ -176,9 +210,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-A total of 4 issues were closed in this release:
+A total of 5 issues were closed in this release:
 
-[#2332](https://github.com/stdlib-js/stdlib/issues/2332), [#2333](https://github.com/stdlib-js/stdlib/issues/2333), [#2335](https://github.com/stdlib-js/stdlib/issues/2335), [#2336](https://github.com/stdlib-js/stdlib/issues/2336)
+[#2332](https://github.com/stdlib-js/stdlib/issues/2332), [#2333](https://github.com/stdlib-js/stdlib/issues/2333), [#2335](https://github.com/stdlib-js/stdlib/issues/2335), [#2336](https://github.com/stdlib-js/stdlib/issues/2336), [#2338](https://github.com/stdlib-js/stdlib/issues/2338)
 
 </section>
 
@@ -205,6 +239,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fd271be`](https://github.com/stdlib-js/stdlib/commit/fd271bef99fe3d5d1ce3c578e10094bce146981e) - **feat:** add `iter/cusome-by` [(#2826)](https://github.com/stdlib-js/stdlib/pull/2826) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`bd3c83a`](https://github.com/stdlib-js/stdlib/commit/bd3c83a593cbd8c1ffecbc7d60f233492db25613) - **feat:** add `iter/cuany-by` [(#2837)](https://github.com/stdlib-js/stdlib/pull/2837) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`d90fdb9`](https://github.com/stdlib-js/stdlib/commit/d90fdb967ee785786f1fc37c148a17a8fa2e1db7) - **feat:** add `iter/cuevery-by` package [(#2838)](https://github.com/stdlib-js/stdlib/pull/2838) _(by Kaif Mohd, Kaif Mohd, Philipp Burckhardt)_
 -   [`8d51aeb`](https://github.com/stdlib-js/stdlib/commit/8d51aebea63f63f3d328c7dd5b402b327d52ff8e) - **fix:** properly increment iteration index _(by Philipp Burckhardt)_
