@@ -4,11 +4,45 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-08)
+## Unreleased (2024-10-09)
 
 <section class="packages">
 
 ### Packages
+
+<section class="package" id="iter-cuevery-unreleased">
+
+#### [@stdlib/iter/cuevery](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cuevery)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`16b3768`](https://github.com/stdlib-js/stdlib/commit/16b37682c43d8b1223904dac5f31b06637d26796) - add `iter/cuevery` [(#2955)](https://github.com/stdlib-js/stdlib/pull/2955)
+
+</section>
+
+<!-- /.features -->
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#2332](https://github.com/stdlib-js/stdlib/issues/2332)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
 
 <section class="package" id="iter-cunone-unreleased">
 
@@ -52,9 +86,9 @@ This release closes the following issue:
 
 ### Closed Issues
 
-This release closes the following issue:
+A total of 2 issues were closed in this release:
 
-[#2333](https://github.com/stdlib-js/stdlib/issues/2333)
+[#2332](https://github.com/stdlib-js/stdlib/issues/2332), [#2333](https://github.com/stdlib-js/stdlib/issues/2333)
 
 </section>
 
@@ -79,6 +113,7 @@ A total of 2 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`16b3768`](https://github.com/stdlib-js/stdlib/commit/16b37682c43d8b1223904dac5f31b06637d26796) - **feat:** add `iter/cuevery` [(#2955)](https://github.com/stdlib-js/stdlib/pull/2955) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - **feat:** add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 ) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`975147f`](https://github.com/stdlib-js/stdlib/commit/975147f3125c786ec1672acb3d2564ca16eaa790) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
