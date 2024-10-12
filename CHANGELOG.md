@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-09)
+## Unreleased (2024-10-12)
 
 <section class="packages">
 
@@ -239,6 +239,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
 -   [`fd271be`](https://github.com/stdlib-js/stdlib/commit/fd271bef99fe3d5d1ce3c578e10094bce146981e) - **feat:** add `iter/cusome-by` [(#2826)](https://github.com/stdlib-js/stdlib/pull/2826) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`bd3c83a`](https://github.com/stdlib-js/stdlib/commit/bd3c83a593cbd8c1ffecbc7d60f233492db25613) - **feat:** add `iter/cuany-by` [(#2837)](https://github.com/stdlib-js/stdlib/pull/2837) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`d90fdb9`](https://github.com/stdlib-js/stdlib/commit/d90fdb967ee785786f1fc37c148a17a8fa2e1db7) - **feat:** add `iter/cuevery-by` package [(#2838)](https://github.com/stdlib-js/stdlib/pull/2838) _(by Kaif Mohd, Kaif Mohd, Philipp Burckhardt)_
