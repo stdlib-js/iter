@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/iter/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.3.2-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { iterAdvance, iterAny, iterAnyBy, iterConcat, iterConstant, iterCounter, iterDatespace, iterDedupe, iterDedupeBy, iterEmpty, iterEvery, iterEveryBy, iterFill, iterFilter, iterFilterMap, iterFirst, iterFlow, iterForEach, iterHead, iterIncrspace, iterIntersection, iterIntersectionByHash, iterLast, iterLength, iterLinspace, iterLogspace, iterMap, iterMapN, iterNone, iterNoneBy, iterNth, iterPipeline, iterPop, iterPush, iterReject, iterReplicate, iterReplicateBy, iterShift, iterSlice, iterSome, iterSomeBy, iterStep, iterStrided, iterStridedBy, iterThunk, iterUnion, iterUnique, iterUniqueBy, iterUniqueByHash, iterUnitspace, iterUnshift, iterator2arrayview, iterator2arrayviewRight, whileEach } from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.3.2-esm/index.mjs';
+import { iterAdvance, iterAny, iterAnyBy, iterConcat, iterConstant, iterCounter, iterDatespace, iterDedupe, iterDedupeBy, iterEmpty, iterEvery, iterEveryBy, iterFill, iterFilter, iterFilterMap, iterFirst, iterFlow, iterForEach, iterHead, iterIncrspace, iterIntersection, iterIntersectionByHash, iterLast, iterLength, iterLinspace, iterLogspace, iterMap, iterMapN, iterNone, iterNoneBy, iterNth, iterPipeline, iterPop, iterPush, iterReject, iterReplicate, iterReplicateBy, iterShift, iterSlice, iterSome, iterSomeBy, iterStep, iterStrided, iterStridedBy, iterThunk, iterUnion, iterUnique, iterUniqueBy, iterUniqueByHash, iterUnitspace, iterUnshift, iterator2arrayview, iterator2arrayviewRight, whileEach } from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
 ```
 
 #### ns
@@ -146,7 +151,7 @@ import uncapitalize from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/uncapital
 import replace from 'https://cdn.jsdelivr.net/gh/stdlib-js/string/replace@esm/index.mjs';
 import contains from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert/contains@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random/iter/randu@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@v0.3.2-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@esm/index.mjs';
 
 // Create a fluent interface for chaining together iterator operations...
 
