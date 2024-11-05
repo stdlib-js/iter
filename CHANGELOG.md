@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.3.3">
+
+## 0.3.3 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.2">
 
 ## 0.3.2 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="iter-cuany-by-unreleased">
+<section class="package" id="iter-cuany-by-v0.3.2">
 
 #### [@stdlib/iter/cuany-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cuany-by)
 
@@ -44,7 +54,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cuevery-unreleased">
+<section class="package" id="iter-cuevery-v0.3.2">
 
 #### [@stdlib/iter/cuevery](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cuevery)
 
@@ -78,7 +88,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cuevery-by-unreleased">
+<section class="package" id="iter-cuevery-by-v0.3.2">
 
 #### [@stdlib/iter/cuevery-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cuevery-by)
 
@@ -112,7 +122,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cunone-unreleased">
+<section class="package" id="iter-cunone-v0.3.2">
 
 #### [@stdlib/iter/cunone](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cunone)
 
@@ -146,7 +156,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cunone-by-unreleased">
+<section class="package" id="iter-cunone-by-v0.3.2">
 
 #### [@stdlib/iter/cunone-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cunone-by)
 
@@ -168,7 +178,7 @@ This release closes the following issue:
 
 <!-- /.package -->
 
-<section class="package" id="iter-cusome-by-unreleased">
+<section class="package" id="iter-cusome-by-v0.3.2">
 
 #### [@stdlib/iter/cusome-by](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/cusome-by)
 
