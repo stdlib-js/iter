@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-11-20)
+## Unreleased (2024-12-10)
 
 <section class="packages">
 
@@ -78,6 +78,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 
 </details>
@@ -324,7 +325,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 
 -   Aditya Sapra
 -   Gururaj Gurram
--   Kaif Mohd
+-   Mohammad Kaif
 -   Philipp Burckhardt
 
 </section>
@@ -342,7 +343,7 @@ A total of 4 people contributed to this release. Thank you to the following cont
 -   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
 -   [`fd271be`](https://github.com/stdlib-js/stdlib/commit/fd271bef99fe3d5d1ce3c578e10094bce146981e) - **feat:** add `iter/cusome-by` [(#2826)](https://github.com/stdlib-js/stdlib/pull/2826) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
 -   [`bd3c83a`](https://github.com/stdlib-js/stdlib/commit/bd3c83a593cbd8c1ffecbc7d60f233492db25613) - **feat:** add `iter/cuany-by` [(#2837)](https://github.com/stdlib-js/stdlib/pull/2837) _(by Gururaj Gurram, Gururaj Gurram, Philipp Burckhardt)_
--   [`d90fdb9`](https://github.com/stdlib-js/stdlib/commit/d90fdb967ee785786f1fc37c148a17a8fa2e1db7) - **feat:** add `iter/cuevery-by` package [(#2838)](https://github.com/stdlib-js/stdlib/pull/2838) _(by Kaif Mohd, Kaif Mohd, Philipp Burckhardt)_
+-   [`d90fdb9`](https://github.com/stdlib-js/stdlib/commit/d90fdb967ee785786f1fc37c148a17a8fa2e1db7) - **feat:** add `iter/cuevery-by` package [(#2838)](https://github.com/stdlib-js/stdlib/pull/2838) _(by Mohammad Kaif, Kaif Mohd, Philipp Burckhardt)_
 -   [`8d51aeb`](https://github.com/stdlib-js/stdlib/commit/8d51aebea63f63f3d328c7dd5b402b327d52ff8e) - **fix:** properly increment iteration index _(by Philipp Burckhardt)_
 -   [`16b3768`](https://github.com/stdlib-js/stdlib/commit/16b37682c43d8b1223904dac5f31b06637d26796) - **feat:** add `iter/cuevery` [(#2955)](https://github.com/stdlib-js/stdlib/pull/2955) _(by Aditya Sapra, Philipp Burckhardt)_
 -   [`783c5d6`](https://github.com/stdlib-js/stdlib/commit/783c5d60fa197f8fa6a7eedc2497d610e541f6cb) - **feat:** add `iter/cunone` [(#2978)](https://github.com/stdlib-js/stdlib/pull/2978 ) _(by Aditya Sapra, Philipp Burckhardt)_
