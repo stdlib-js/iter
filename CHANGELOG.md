@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-15)
+## Unreleased (2024-12-17)
 
 <section class="packages">
 
@@ -78,6 +78,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`32deb11`](https://github.com/stdlib-js/stdlib/commit/32deb11c6a2453748d8db9554b6bb3fdb73a077f) - **docs:** update related packages sections [(#3976)](https://github.com/stdlib-js/stdlib/pull/3976) _(by stdlib-bot)_
 -   [`ff25e13`](https://github.com/stdlib-js/stdlib/commit/ff25e1324e1507cc076078e82badce7fdf7915f6) - **docs:** remove excess whitespace _(by Philipp Burckhardt)_
 -   [`ac06419`](https://github.com/stdlib-js/stdlib/commit/ac06419c2a8358dfd80818823f571077eb58958e) - **docs:** update related packages sections [(#3387)](https://github.com/stdlib-js/stdlib/pull/3387) _(by stdlib-bot)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
@@ -590,7 +591,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   Mohammad Kaif
 -   Nourhan Hasan
 -   Philipp Burckhardt
--   Praneki
+-   Pranjal Jha
 -   Raunak Kumar Gupta
 -   Ridam Garg
 
@@ -615,7 +616,7 @@ A total of 8 people contributed to this release. Thank you to the following cont
 -   [`dc20da0`](https://github.com/stdlib-js/stdlib/commit/dc20da0604fe2798e20e757277072fefc876da3c) - **chore:** update package meta data [(#1856)](https://github.com/stdlib-js/stdlib/pull/1856) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`4114dd6`](https://github.com/stdlib-js/stdlib/commit/4114dd633130252c7a333c04799ef6210dd2faa2) - **feat:** add `iter/do-until-each` [(#1408)](https://github.com/stdlib-js/stdlib/pull/1408) _(by Raunak Kumar Gupta)_
 -   [`d40dbaf`](https://github.com/stdlib-js/stdlib/commit/d40dbafc25e3e10c8fa83f5b4203db97c289823c) - **chore:** update package meta data [(#1812)](https://github.com/stdlib-js/stdlib/pull/1812) _(by stdlib-bot)_
--   [`3fabd41`](https://github.com/stdlib-js/stdlib/commit/3fabd410f3fdf4e2fc4302cef5db992049949927) - **feat:** add `iter/do-while-each` _(by Praneki, Philipp Burckhardt)_
+-   [`3fabd41`](https://github.com/stdlib-js/stdlib/commit/3fabd410f3fdf4e2fc4302cef5db992049949927) - **feat:** add `iter/do-while-each` _(by Pranjal Jha, Philipp Burckhardt)_
 -   [`5cfd0a8`](https://github.com/stdlib-js/stdlib/commit/5cfd0a8712299d680aff7f9d8fca0c0ac69de56b) - **chore:** update package meta data [(#1462)](https://github.com/stdlib-js/stdlib/pull/1462) _(by stdlib-bot)_
 -   [`73ab86a`](https://github.com/stdlib-js/stdlib/commit/73ab86adfee2e05c37a28fc0c78ff5f0804651e4) - **feat:** add `iter/until-each` [(#1389)](https://github.com/stdlib-js/stdlib/pull/1389) _(by Chinmay Joshi, stdlib-bot)_
 
