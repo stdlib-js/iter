@@ -39,6 +39,7 @@
     "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
     "@stdlib/constants": "github:stdlib-js/constants#main",
+    "@stdlib/dstructs": "github:stdlib-js/dstructs#main",
     "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/symbol": "github:stdlib-js/symbol#main",
