@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-27)
+## Unreleased (2025-08-12)
 
 <section class="features">
 
@@ -34,6 +34,7 @@
 
 <details>
 
+-   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`908fdc2`](https://github.com/stdlib-js/stdlib/commit/908fdc25b354623f6d30952c19cbec39f1e0d2af) - **refactor:** update paths _(by Athan Reines)_
 -   [`10d3909`](https://github.com/stdlib-js/stdlib/commit/10d39095fa1b64172538ca21893ea2b357e10f49) - **docs:** update related packages sections [(#4793)](https://github.com/stdlib-js/stdlib/pull/4793) _(by stdlib-bot)_
