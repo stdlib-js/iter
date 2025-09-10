@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-08-12)
+## Unreleased (2025-09-10)
 
 <section class="features">
 
 ### Features
 
+-   [`20d6f78`](https://github.com/stdlib-js/stdlib/commit/20d6f781751cf16b96f5c1e2912a502ef97f6f5d) - add iterator exports and fix naming consistency
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
 </section>
@@ -20,6 +21,7 @@
 
 ### BREAKING CHANGES
 
+-   [`20d6f78`](https://github.com/stdlib-js/stdlib/commit/20d6f781751cf16b96f5c1e2912a502ef97f6f5d): rename whileEach to iterWhileEach for consistency
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
 
     -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
@@ -34,6 +36,12 @@
 
 <details>
 
+-   [`78620b6`](https://github.com/stdlib-js/stdlib/commit/78620b6184bd362245406d3c6af826455a0b78fc) - **chore:** disable lint directives _(by Philipp Burckhardt)_
+-   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
+-   [`20d6f78`](https://github.com/stdlib-js/stdlib/commit/20d6f781751cf16b96f5c1e2912a502ef97f6f5d) - **feat:** add iterator exports and fix naming consistency _(by Philipp Burckhardt)_
+-   [`11581aa`](https://github.com/stdlib-js/stdlib/commit/11581aaca8c3cb824cbb92c0c0f80e76890bdb20) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`07f7c05`](https://github.com/stdlib-js/stdlib/commit/07f7c0522c73e6ad9505e1d45035ae439344200d) - **test:** use standardized assertion messages and fix lint errors _(by Philipp Burckhardt)_
+-   [`c894b66`](https://github.com/stdlib-js/stdlib/commit/c894b664661bfb87286304b24dd5a1758ae482b7) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
 -   [`77867ac`](https://github.com/stdlib-js/stdlib/commit/77867ac1767a186023f633dea30ddf860962aaed) - **docs:** remove trailing whitespace _(by Philipp Burckhardt)_
 -   [`5df47c3`](https://github.com/stdlib-js/stdlib/commit/5df47c33138ddac50e4a9cfb8f0b22c1821e046b) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`908fdc2`](https://github.com/stdlib-js/stdlib/commit/908fdc25b354623f6d30952c19cbec39f1e0d2af) - **refactor:** update paths _(by Athan Reines)_
