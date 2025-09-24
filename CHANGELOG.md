@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-10)
+## Unreleased (2025-09-24)
 
 <section class="features">
 
 ### Features
 
+-   [`70afd90`](https://github.com/stdlib-js/stdlib/commit/70afd90be6d343a43bcb374f01acc8dd3b8e6899) - update `iter` TypeScript declarations
 -   [`20d6f78`](https://github.com/stdlib-js/stdlib/commit/20d6f781751cf16b96f5c1e2912a502ef97f6f5d) - add iterator exports and fix naming consistency
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
@@ -36,6 +37,8 @@
 
 <details>
 
+-   [`4f34af5`](https://github.com/stdlib-js/stdlib/commit/4f34af565334a8b431e81bc5325c502529f456c6) - **chore:** remove extra spaces and add missing TSDoc comments _(by Philipp Burckhardt)_
+-   [`70afd90`](https://github.com/stdlib-js/stdlib/commit/70afd90be6d343a43bcb374f01acc8dd3b8e6899) - **feat:** update `iter` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`78620b6`](https://github.com/stdlib-js/stdlib/commit/78620b6184bd362245406d3c6af826455a0b78fc) - **chore:** disable lint directives _(by Philipp Burckhardt)_
 -   [`33d711b`](https://github.com/stdlib-js/stdlib/commit/33d711b32194fa35075481f408444ce4bb48a32d) - **docs:** add missing forward slashes to return annotations _(by Philipp Burckhardt)_
 -   [`20d6f78`](https://github.com/stdlib-js/stdlib/commit/20d6f781751cf16b96f5c1e2912a502ef97f6f5d) - **feat:** add iterator exports and fix naming consistency _(by Philipp Burckhardt)_

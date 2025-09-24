@@ -26,9 +26,19 @@ import iterAnyBy = require( './../../any-by' );
 import iterConcat = require( './../../concat' );
 import iterConstant = require( './../../constant' );
 import iterCounter = require( './../../counter' );
+import iterCuAny = require( './../../cuany' );
+import iterCuAnyBy = require( './../../cuany-by' );
+import iterCuEvery = require( './../../cuevery' );
+import iterCuEveryBy = require( './../../cuevery-by' );
+import iterCuNone = require( './../../cunone' );
+import iterCuNoneBy = require( './../../cunone-by' );
+import iterCuSome = require( './../../cusome' );
+import iterCuSomeBy = require( './../../cusome-by' );
 import iterDatespace = require( './../../datespace' );
 import iterDedupe = require( './../../dedupe' );
 import iterDedupeBy = require( './../../dedupe-by' );
+import iterDoUntilEach = require( './../../do-until-each' );
+import iterDoWhileEach = require( './../../do-while-each' );
 import iterEmpty = require( './../../empty' );
 import iterEvery = require( './../../every' );
 import iterEveryBy = require( './../../every-by' );
@@ -73,7 +83,8 @@ import iterUniqueBy = require( './../../unique-by' );
 import iterUniqueByHash = require( './../../unique-by-hash' );
 import iterUnitspace = require( './../../unitspace' );
 import iterUnshift = require( './../../unshift' );
-import whileEach = require( './../../while-each' );
+import iterUntilEach = require( './../../until-each' );
+import iterWhileEach = require( './../../while-each' );
 
 /**
 * Interface describing the `iter` namespace.
@@ -235,6 +246,276 @@ interface Namespace {
 	iterCounter: typeof iterCounter;
 
 	/**
+	* Returns an iterator which cumulatively tests whether at least one iterated value is truthy.
+	*
+	* @param iterator - input iterator
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* var arr = array2iterator( [ false, false, false, true, false ] );
+	*
+	* var it = ns.iterCuAny( arr );
+	*
+	* var v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* var bool = it.next().done;
+	* // returns true
+	*/
+	iterCuAny: typeof iterCuAny;
+
+	/**
+	* Returns an iterator which cumulatively tests whether at least one iterated value passes a test implemented by a predicate function.
+	*
+	* @param iterator - source iterator
+	* @param predicate - predicate function
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function isPositive( v ) {
+	*     return ( v > 0 );
+	* }
+	*
+	* var it = ns.iterCuAnyBy( array2iterator( [ 0, 0, 0, 1, 0 ] ), isPositive );
+	*
+	* var v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*/
+	iterCuAnyBy: typeof iterCuAnyBy;
+
+	/**
+	* Returns an iterator which cumulatively tests whether every iterated value is truthy.
+	*
+	* @param iterator - input iterator
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* var arr = array2iterator( [ true, true, true, false, true ] );
+	*
+	* var it = ns.iterCuEvery( arr );
+	*
+	* var v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* var bool = it.next().done;
+	* // returns true
+	*/
+	iterCuEvery: typeof iterCuEvery;
+
+	/**
+	* Returns an iterator which cumulatively tests whether every iterated value passes a test implemented by a predicate function.
+	*
+	* @param iterator - source iterator
+	* @param predicate - predicate function
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function isPositive( v ) {
+	*     return ( v > 0 );
+	* }
+	*
+	* var it = ns.iterCuEveryBy( array2iterator( [ 1, 1, 1, 0, 1 ] ), isPositive );
+	*
+	* var v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*/
+	iterCuEveryBy: typeof iterCuEveryBy;
+
+	/**
+	* Returns an iterator which cumulatively tests whether every iterated value is falsy.
+	*
+	* @param iterator - input iterator
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* var arr = array2iterator( [ false, false, false, true, false ] );
+	*
+	* var it = ns.iterCuNone( arr );
+	*
+	* var v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* var bool = it.next().done;
+	* // returns true
+	*/
+	iterCuNone: typeof iterCuNone;
+
+	/**
+	* Returns an iterator which cumulatively tests whether every iterated value fails a test implemented by a predicate function.
+	*
+	* @param iterator - source iterator
+	* @param predicate - predicate function
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function isPositive( v ) {
+	*     return ( v > 0 );
+	* }
+	*
+	* var it = ns.iterCuNoneBy( array2iterator( [ 0, 0, 0, 1, 0 ] ), isPositive );
+	*
+	* var v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*/
+	iterCuNoneBy: typeof iterCuNoneBy;
+
+	/**
+	* Returns an iterator which cumulatively tests whether at least `n` iterated values are truthy.
+	*
+	* @param iterator - source iterator
+	* @param n - minimum number of truthy elements
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* var it = ns.iterCuSome( array2iterator( [ false, false, false, true, true, false ] ), 2 );
+	*
+	* var v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* v = it.next().value;
+	* // returns true
+	*
+	* // ..
+	*/
+	iterCuSome: typeof iterCuSome;
+
+	/**
+	* Returns an iterator which cumulatively tests whether at least `n` iterated values pass a test implemented by a predicate function.
+	*
+	* @param iterator - source iterator
+	* @param n - minimum number of truthy elements
+	* @param predicate - predicate function
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function isPositive( v ) {
+	*     return ( v > 0 );
+	* }
+	*
+	* var it = ns.iterCuSomeBy( array2iterator( [ 0, 0, 0, 1, 1 ] ), 2, isPositive );
+	*
+	* var v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns false
+	*
+	* v = it.next().value;
+	* // returns true
+	*/
+	iterCuSomeBy: typeof iterCuSomeBy;
+
+	/**
 	* Returns an iterator which returns evenly spaced dates over a specified interval.
 	*
 	* ## Notes
@@ -338,6 +619,101 @@ interface Namespace {
 	* // ...
 	*/
 	iterDedupeBy: typeof iterDedupeBy;
+
+	/**
+	* Returns an iterator which invokes a function for each iterated value **before** returning the iterated value until either a predicate function returns `true` or the iterator has iterated over all values.
+	*
+	* ## Notes
+	*
+	* -   When invoked, both the `predicate` and callback functions are provided two arguments:
+	*
+	*     -   **value**: iterated value
+	*     -   **index**: iteration index (zero-based)
+	*
+	* -   If an environment supports `Symbol.iterator` **and** a provided iterator is iterable, the returned iterator is iterable.
+	*
+	* @param iterator - input iterator
+	* @param predicate - function which indicates whether to continue iterating
+	* @param fcn - callback function to invoke for each iterated value
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function predicate( v ) {
+	*     return v > 2;
+	* }
+	*
+	* function assert( v, i ) {
+	*     if ( i > 1 ) {
+	*         throw new Error( 'unexpected error' );
+	*     }
+	* }
+	*
+	* var it = ns.iterDoUntilEach( array2iterator( [ 1, 2, 3, 4 ] ), predicate, assert );
+	* // returns {}
+	*
+	* var r = it.next().value;
+	* // returns 1
+	*
+	* r = it.next().value;
+	* // returns 2
+	*
+	* r = it.next().value;
+	* // undefined
+	*
+	* // ...
+	*/
+	iterDoUntilEach: typeof iterDoUntilEach;
+
+	/**
+	* Returns an iterator which invokes a function for each iterated value **before** returning the iterated value until either a predicate function returns `false` or the iterator has iterated over all values.
+	* The condition is evaluated *after* executing the provided function; thus, fcn` *always* executes at least once.
+	*
+	* ## Notes
+	*
+	* -   When invoked, both the `predicate` and callback functions are provided two arguments:
+	*
+	*     -   **value**: iterated value
+	*     -   **index**: iteration index (zero-based)
+	*
+	* -   If an environment supports `Symbol.iterator` **and** a provided iterator is iterable, the returned iterator is iterable.
+	*
+	* @param iterator - input iterator
+	* @param predicate - function which indicates whether to continue iterating
+	* @param fcn - callback function to invoke for each iterated value
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function predicate( v ) {
+	*     return v < 3;
+	* }
+	*
+	* function assert( v, i ) {
+	*     if ( i > 1 ) {
+	*         throw new Error( 'unexpected error' );
+	*     }
+	* }
+	*
+	* var it = ns.iterDoWhileEach( array2iterator( [ 1, 2, 3, 4 ] ), predicate, assert );
+	* // returns {}
+	*
+	* var r = it.next().value;
+	* // returns 1
+	*
+	* r = it.next().value;
+	* // returns 2
+	*
+	* r = it.next().value;
+	* // undefined
+	*
+	* // ...
+	*/
+	iterDoWhileEach: typeof iterDoWhileEach;
 
 	/**
 	* Returns an empty iterator.
@@ -1673,6 +2049,53 @@ interface Namespace {
 	iterUnshift: typeof iterUnshift;
 
 	/**
+	* Returns an iterator which invokes a function for each iterated value **before** returning the iterated value until either a predicate function returns `true` or the iterator has iterated over all values.
+	*
+	* ## Notes
+	*
+	* -   When invoked, both the `predicate` and callback functions are provided two arguments:
+	*
+	*     -   **value**: iterated value
+	*     -   **index**: iteration index (zero-based)
+	*
+	* -   If an environment supports `Symbol.iterator` **and** a provided iterator is iterable, the returned iterator is iterable.
+	*
+	* @param iterator - input iterator
+	* @param predicate - function which indicates whether to continue iterating
+	* @param fcn - callback function to invoke for each iterated value
+	* @param thisArg - execution context
+	* @returns iterator
+	*
+	* @example
+	* var array2iterator = require( '@stdlib/array/to-iterator' );
+	*
+	* function predicate( v ) {
+	*     return v > 2;
+	* }
+	*
+	* function assert( v, i ) {
+	*     if ( i > 1 ) {
+	*         throw new Error( 'unexpected error' );
+	*     }
+	* }
+	*
+	* var it = ns.iterUntilEach( array2iterator( [ 1, 2, 3, 4 ] ), predicate, assert );
+	* // returns {}
+	*
+	* var r = it.next().value;
+	* // returns 1
+	*
+	* r = it.next().value;
+	* // returns 2
+	*
+	* r = it.next().value;
+	* // undefined
+	*
+	* // ...
+	*/
+	iterUntilEach: typeof iterUntilEach;
+
+	/**
 	* Returns an iterator which invokes a function for each iterated value **before** returning the iterated value until either a predicate function returns `false` or the iterator has iterated over all values.
 	*
 	* ## Notes
@@ -1703,7 +2126,7 @@ interface Namespace {
 	*     }
 	* }
 	*
-	* var it = ns.whileEach( array2iterator( [ 1, 2, 3, 4 ] ), predicate, assert );
+	* var it = ns.iterWhileEach( array2iterator( [ 1, 2, 3, 4 ] ), predicate, assert );
 	* // returns {}
 	*
 	* var r = it.next().value;
@@ -1717,7 +2140,7 @@ interface Namespace {
 	*
 	* // ...
 	*/
-	whileEach: typeof whileEach;
+	iterWhileEach: typeof iterWhileEach;
 }
 
 /**
