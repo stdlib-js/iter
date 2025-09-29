@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-24)
+## Unreleased (2025-09-29)
 
 <section class="features">
 
@@ -37,6 +37,7 @@
 
 <details>
 
+-   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`4f34af5`](https://github.com/stdlib-js/stdlib/commit/4f34af565334a8b431e81bc5325c502529f456c6) - **chore:** remove extra spaces and add missing TSDoc comments _(by Philipp Burckhardt)_
 -   [`70afd90`](https://github.com/stdlib-js/stdlib/commit/70afd90be6d343a43bcb374f01acc8dd3b8e6899) - **feat:** update `iter` TypeScript declarations _(by Philipp Burckhardt)_
 -   [`78620b6`](https://github.com/stdlib-js/stdlib/commit/78620b6184bd362245406d3c6af826455a0b78fc) - **chore:** disable lint directives _(by Philipp Burckhardt)_
