@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-09-30)
+## Unreleased (2025-11-05)
 
 <section class="features">
 
@@ -37,6 +37,7 @@
 
 <details>
 
+-   [`df3a5eb`](https://github.com/stdlib-js/stdlib/commit/df3a5eb8d0d35e57479253130e6aeb947cbd3b74) - **refactor:** use base array utility _(by Athan Reines)_
 -   [`044d67b`](https://github.com/stdlib-js/stdlib/commit/044d67bba8e2166313bf5f7ec59fa0fee3a3a54c) - **docs:** fix examples [(#8162)](https://github.com/stdlib-js/stdlib/pull/8162) _(by stdlib-bot)_
 -   [`b7c2031`](https://github.com/stdlib-js/stdlib/commit/b7c20312491bdcf54ffc681e5fe489b9ba3d059c) - **docs:** clean-up TSDoc declaration comments _(by Philipp Burckhardt)_
 -   [`4f34af5`](https://github.com/stdlib-js/stdlib/commit/4f34af565334a8b431e81bc5325c502529f456c6) - **chore:** remove extra spaces and add missing TSDoc comments _(by Philipp Burckhardt)_
