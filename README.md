@@ -35,38 +35,32 @@ limitations under the License.
 
 > Iterator utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/iter' );
 ```
 
 #### ns
@@ -90,9 +84,19 @@ var keys = objectKeys( ns );
 -   <span class="signature">[`iterConcat( iter0, ...iterator )`][@stdlib/iter/concat]</span><span class="delimiter">: </span><span class="description">create an iterator which iterates over the values of two or more iterators.</span>
 -   <span class="signature">[`iterConstant( value[, options] )`][@stdlib/iter/constant]</span><span class="delimiter">: </span><span class="description">create an iterator which always returns the same value.</span>
 -   <span class="signature">[`iterCounter( iterator )`][@stdlib/iter/counter]</span><span class="delimiter">: </span><span class="description">create an iterator which iteratively computes the number of iterated values.</span>
+-   <span class="signature">[`iterCuAnyBy( iterator, predicate[, thisArg] )`][@stdlib/iter/cuany-by]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether at least one iterated value passes a test implemented by a predicate function.</span>
+-   <span class="signature">[`iterCuAny( iterator )`][@stdlib/iter/cuany]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether at least one iterated value is truthy.</span>
+-   <span class="signature">[`iterCuEveryBy( iterator, predicate[, thisArg] )`][@stdlib/iter/cuevery-by]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether every iterated value passes a test implemented by a predicate function.</span>
+-   <span class="signature">[`iterCuEvery( iterator )`][@stdlib/iter/cuevery]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether every iterated value is truthy.</span>
+-   <span class="signature">[`iterCuNoneBy( iterator, predicate[, thisArg] )`][@stdlib/iter/cunone-by]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether every iterated value fails a test implemented by a predicate function.</span>
+-   <span class="signature">[`iterCuNone( iterator )`][@stdlib/iter/cunone]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether every iterated value is falsy.</span>
+-   <span class="signature">[`iterCuSomeBy( iterator, n, predicate[, thisArg] )`][@stdlib/iter/cusome-by]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether at least `n` iterated values pass a test implemented by a predicate function.</span>
+-   <span class="signature">[`iterCuSome( iterator, n )`][@stdlib/iter/cusome]</span><span class="delimiter">: </span><span class="description">create an iterator which cumulatively tests whether at least `n` iterated values are truthy.</span>
 -   <span class="signature">[`iterDatespace( start, stop[, N][, options] )`][@stdlib/iter/datespace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced dates over a specified interval.</span>
 -   <span class="signature">[`iterDedupeBy( iterator, [limit,] fcn )`][@stdlib/iter/dedupe-by]</span><span class="delimiter">: </span><span class="description">create an iterator which removes consecutive values that resolve to the same value according to a provided function.</span>
 -   <span class="signature">[`iterDedupe( iterator[, limit] )`][@stdlib/iter/dedupe]</span><span class="delimiter">: </span><span class="description">create an iterator which removes consecutive duplicated values.</span>
+-   <span class="signature">[`iterDoUntilEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/do-until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="signature">[`iterDoWhileEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/do-while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
 -   <span class="signature">[`iterEmpty()`][@stdlib/iter/empty]</span><span class="delimiter">: </span><span class="description">create an empty iterator.</span>
 -   <span class="signature">[`iterEveryBy( iterator, predicate[, thisArg] )`][@stdlib/iter/every-by]</span><span class="delimiter">: </span><span class="description">test whether every iterated value passes a test implemented by a predicate function.</span>
 -   <span class="signature">[`iterEvery( iterator )`][@stdlib/iter/every]</span><span class="delimiter">: </span><span class="description">test whether all iterated values are truthy.</span>
@@ -137,7 +141,8 @@ var keys = objectKeys( ns );
 -   <span class="signature">[`iterUnique( iterator )`][@stdlib/iter/unique]</span><span class="delimiter">: </span><span class="description">create an iterator which returns unique values.</span>
 -   <span class="signature">[`iterUnitspace( start[, stop] )`][@stdlib/iter/unitspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns numbers incremented by `1`.</span>
 -   <span class="signature">[`iterUnshift( iterator, ...items )`][@stdlib/iter/unshift]</span><span class="delimiter">: </span><span class="description">create an iterator which prepends values to the beginning of a provided iterator.</span>
--   <span class="signature">[`whileEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="signature">[`iterUntilEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/until-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is false, invokes a function for each iterated value before returning the iterated value.</span>
+-   <span class="signature">[`iterWhileEach( iterator, predicate, fcn[, thisArg] )`][@stdlib/iter/while-each]</span><span class="delimiter">: </span><span class="description">create an iterator which, while a test condition is true, invokes a function for each iterated value before returning the iterated value.</span>
 
 </div>
 
@@ -153,18 +158,13 @@ var keys = objectKeys( ns );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string/uncapitalize@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string/replace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert/contains@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random/iter/randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var uncapitalize = require( '@stdlib/string/uncapitalize' );
+var replace = require( '@stdlib/string/replace' );
+var contains = require( '@stdlib/assert/contains' );
+var randu = require( '@stdlib/random/iter/randu' );
+var ns = require( '@stdlib/iter' );
 
 // Create a fluent interface for chaining together iterator operations...
 
@@ -223,11 +223,6 @@ while ( true ) {
         break;
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -328,11 +323,31 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/iter/counter]: https://github.com/stdlib-js/iter/tree/main/counter
 
+[@stdlib/iter/cuany-by]: https://github.com/stdlib-js/iter/tree/main/cuany-by
+
+[@stdlib/iter/cuany]: https://github.com/stdlib-js/iter/tree/main/cuany
+
+[@stdlib/iter/cuevery-by]: https://github.com/stdlib-js/iter/tree/main/cuevery-by
+
+[@stdlib/iter/cuevery]: https://github.com/stdlib-js/iter/tree/main/cuevery
+
+[@stdlib/iter/cunone-by]: https://github.com/stdlib-js/iter/tree/main/cunone-by
+
+[@stdlib/iter/cunone]: https://github.com/stdlib-js/iter/tree/main/cunone
+
+[@stdlib/iter/cusome-by]: https://github.com/stdlib-js/iter/tree/main/cusome-by
+
+[@stdlib/iter/cusome]: https://github.com/stdlib-js/iter/tree/main/cusome
+
 [@stdlib/iter/datespace]: https://github.com/stdlib-js/iter/tree/main/datespace
 
 [@stdlib/iter/dedupe-by]: https://github.com/stdlib-js/iter/tree/main/dedupe-by
 
 [@stdlib/iter/dedupe]: https://github.com/stdlib-js/iter/tree/main/dedupe
+
+[@stdlib/iter/do-until-each]: https://github.com/stdlib-js/iter/tree/main/do-until-each
+
+[@stdlib/iter/do-while-each]: https://github.com/stdlib-js/iter/tree/main/do-while-each
 
 [@stdlib/iter/empty]: https://github.com/stdlib-js/iter/tree/main/empty
 
@@ -421,6 +436,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/iter/unitspace]: https://github.com/stdlib-js/iter/tree/main/unitspace
 
 [@stdlib/iter/unshift]: https://github.com/stdlib-js/iter/tree/main/unshift
+
+[@stdlib/iter/until-each]: https://github.com/stdlib-js/iter/tree/main/until-each
 
 [@stdlib/iter/while-each]: https://github.com/stdlib-js/iter/tree/main/while-each
 
