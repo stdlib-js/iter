@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-12-17)
+## Unreleased (2026-01-16)
 
 <section class="features">
 
@@ -37,6 +37,7 @@
 
 <details>
 
+-   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
 -   [`010db5c`](https://github.com/stdlib-js/stdlib/commit/010db5c09c887bd581006fea011661ecc3ea5d2a) - **test:** fix descriptions _(by Athan Reines)_
 -   [`5f5bb2d`](https://github.com/stdlib-js/stdlib/commit/5f5bb2d4277a24000b57fb07bc28d821500cd7e8) - **docs:** update namespace table of contents [(#8425)](https://github.com/stdlib-js/stdlib/pull/8425) _(by stdlib-bot, Athan Reines)_
 -   [`df3a5eb`](https://github.com/stdlib-js/stdlib/commit/df3a5eb8d0d35e57479253130e6aeb947cbd3b74) - **refactor:** use base array utility _(by Athan Reines)_
