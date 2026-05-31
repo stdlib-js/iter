@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-11)
+## Unreleased (2026-05-31)
 
 <section class="features">
 
@@ -37,6 +37,7 @@
 
 <details>
 
+-   [`31bf95f`](https://github.com/stdlib-js/stdlib/commit/31bf95ff01742bd291b91c389207fa57fe003f12) - **docs:** document short-circuit early-return [(#12384)](https://github.com/stdlib-js/stdlib/pull/12384) _(by Philipp Burckhardt)_
 -   [`0287136`](https://github.com/stdlib-js/stdlib/commit/0287136074eb89eede83a3cae5c5b51a7760a57e) - **bench:** refactor to use string interpolation in `iter` [(#11612)](https://github.com/stdlib-js/stdlib/pull/11612) _(by Karan Anand)_
 -   [`02d748a`](https://github.com/stdlib-js/stdlib/commit/02d748a8c61dcb97200e82857b2fde9b3ae84f83) - **bench:** refactor to use string interpolation in `iter/push` [(#10434)](https://github.com/stdlib-js/stdlib/pull/10434) _(by Sagar Ratna Chaudhary)_
 -   [`0472076`](https://github.com/stdlib-js/stdlib/commit/04720767c484e6277ad9411dff3dc5a116c31378) - **docs:** remove duplicated words in documentation and comments _(by Philipp Burckhardt)_
