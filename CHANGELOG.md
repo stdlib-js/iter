@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-06-10)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`47e2cbf`](https://github.com/stdlib-js/stdlib/commit/47e2cbfd9223f5fa4da1ac4aa1f87ec9b000038b) - **docs:** fix and align TSDoc comments in `iter` declarations [(#12726)](https://github.com/stdlib-js/stdlib/pull/12726) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.4.1">
 
 ## 0.4.1 (2026-06-05)
