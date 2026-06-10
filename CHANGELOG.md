@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`8ad0279`](https://github.com/stdlib-js/stdlib/commit/8ad0279f265be30940cc42dda841f140bb9c649f) - **docs:** update `iter` TypeScript declarations [(#12745)](https://github.com/stdlib-js/stdlib/pull/12745) _(by stdlib-bot)_
 -   [`47e2cbf`](https://github.com/stdlib-js/stdlib/commit/47e2cbfd9223f5fa4da1ac4aa1f87ec9b000038b) - **docs:** fix and align TSDoc comments in `iter` declarations [(#12726)](https://github.com/stdlib-js/stdlib/pull/12726) _(by Philipp Burckhardt)_
 
 </details>
