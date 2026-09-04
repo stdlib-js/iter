@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-11)
+## Unreleased (2026-09-04)
 
 <section class="bug-fixes">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`b04bbaf`](https://github.com/stdlib-js/stdlib/commit/b04bbafa83ab5f6cd8618a8f7cfc8290ed2c6623) - **docs:** update parameter types [(#14986)](https://github.com/stdlib-js/stdlib/pull/14986) _(by Philipp Burckhardt)_
 -   [`691b9cb`](https://github.com/stdlib-js/stdlib/commit/691b9cb782141124b7225537058b6345888631de) - **fix:** disallow number objects [(#13094)](https://github.com/stdlib-js/stdlib/pull/13094) _(by Philipp Burckhardt)_
 -   [`8ad0279`](https://github.com/stdlib-js/stdlib/commit/8ad0279f265be30940cc42dda841f140bb9c649f) - **docs:** update `iter` TypeScript declarations [(#12745)](https://github.com/stdlib-js/stdlib/pull/12745) _(by stdlib-bot)_
 -   [`47e2cbf`](https://github.com/stdlib-js/stdlib/commit/47e2cbfd9223f5fa4da1ac4aa1f87ec9b000038b) - **docs:** fix and align TSDoc comments in `iter` declarations [(#12726)](https://github.com/stdlib-js/stdlib/pull/12726) _(by Philipp Burckhardt)_
