@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-12)
+## Unreleased (2026-10-13)
 
 <section class="bug-fixes">
 
 ### Bug Fixes
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108)
 -   [`691b9cb`](https://github.com/stdlib-js/stdlib/commit/691b9cb782141124b7225537058b6345888631de) - disallow number objects [(#13094)](https://github.com/stdlib-js/stdlib/pull/13094)
 
 </section>
@@ -22,6 +23,7 @@
 
 <details>
 
+-   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`32955dc`](https://github.com/stdlib-js/stdlib/commit/32955dc0b3702c213291bdd1c5bab40156a5168b) - **docs:** document iterable behavior [(#15841)](https://github.com/stdlib-js/stdlib/pull/15841) _(by Philipp Burckhardt)_
 -   [`b04bbaf`](https://github.com/stdlib-js/stdlib/commit/b04bbafa83ab5f6cd8618a8f7cfc8290ed2c6623) - **docs:** update parameter types [(#14986)](https://github.com/stdlib-js/stdlib/pull/14986) _(by Philipp Burckhardt)_
 -   [`691b9cb`](https://github.com/stdlib-js/stdlib/commit/691b9cb782141124b7225537058b6345888631de) - **fix:** disallow number objects [(#13094)](https://github.com/stdlib-js/stdlib/pull/13094) _(by Philipp Burckhardt)_
