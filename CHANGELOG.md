@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-10-13)
+## Unreleased (2026-11-05)
 
 <section class="bug-fixes">
 
@@ -23,6 +23,8 @@
 
 <details>
 
+-   [`7349dff`](https://github.com/stdlib-js/stdlib/commit/7349dffeddd90289879f06e70acc1be8544af75b) - **style:** add missing whitespace [(#16507)](https://github.com/stdlib-js/stdlib/pull/16507) _(by Philipp Burckhardt)_
+-   [`78ad2fa`](https://github.com/stdlib-js/stdlib/commit/78ad2fa5dbb12ce808dec93197d5343745ff91b8) - **docs:** normalize trailing newlines in REPL help texts [(#16420)](https://github.com/stdlib-js/stdlib/pull/16420) _(by Philipp Burckhardt)_
 -   [`ebec084`](https://github.com/stdlib-js/stdlib/commit/ebec0844648d51499375251f2da71a7016528245) - **fix:** clamp only the upper bound and clean-up [(#16108)](https://github.com/stdlib-js/stdlib/pull/16108) _(by Philipp Burckhardt)_
 -   [`32955dc`](https://github.com/stdlib-js/stdlib/commit/32955dc0b3702c213291bdd1c5bab40156a5168b) - **docs:** document iterable behavior [(#15841)](https://github.com/stdlib-js/stdlib/pull/15841) _(by Philipp Burckhardt)_
 -   [`b04bbaf`](https://github.com/stdlib-js/stdlib/commit/b04bbafa83ab5f6cd8618a8f7cfc8290ed2c6623) - **docs:** update parameter types [(#14986)](https://github.com/stdlib-js/stdlib/pull/14986) _(by Philipp Burckhardt)_
