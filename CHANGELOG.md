@@ -23,6 +23,7 @@
 
 <details>
 
+-   [`0c06626`](https://github.com/stdlib-js/stdlib/commit/0c06626a9d809646f1ee63cc3d5b1214856accf2) - **docs:** update examples and clean-up [(#16598)](https://github.com/stdlib-js/stdlib/pull/16598) _(by Philipp Burckhardt)_
 -   [`9c9e9f5`](https://github.com/stdlib-js/stdlib/commit/9c9e9f539b7c6e79213e28cbec191700e37633bc) - **docs:** fix return annotations [(#16604)](https://github.com/stdlib-js/stdlib/pull/16604) _(by stdlib-bot)_
 -   [`bbe76bd`](https://github.com/stdlib-js/stdlib/commit/bbe76bd88b1dc187ec192934a34540f548091489) - **chore:** clean-up [(#16572)](https://github.com/stdlib-js/stdlib/pull/16572) _(by Philipp Burckhardt)_
 -   [`24cada1`](https://github.com/stdlib-js/stdlib/commit/24cada19fdb1580d4cf77da22f75ea9136d02fb8) - **chore:** clean-up [(#16549)](https://github.com/stdlib-js/stdlib/pull/16549) _(by Philipp Burckhardt)_
