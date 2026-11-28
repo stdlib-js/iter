@@ -35,38 +35,32 @@ limitations under the License.
 
 > Iterator utilities.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/iter
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-ns = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var ns = require( 'path/to/vendor/umd/iter/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.ns;
-})();
-</script>
+var ns = require( '@stdlib/iter' );
 ```
 
 #### ns
@@ -119,7 +113,7 @@ var keys = objectKeys( ns );
 -   <span class="signature">[`iterLast( iterator )`][@stdlib/iter/last]</span><span class="delimiter">: </span><span class="description">consume an entire iterator and return the last iterated value.</span>
 -   <span class="signature">[`iterLength( iterator )`][@stdlib/iter/length]</span><span class="delimiter">: </span><span class="description">return an iterator's length.</span>
 -   <span class="signature">[`iterLinspace( start, stop[, N] )`][@stdlib/iter/linspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers over a specified interval.</span>
--   <span class="signature">[`iterLogspace( start, stop[, N][, options] )`][@stdlib/iter/logspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers over a specified interval.</span>
+-   <span class="signature">[`iterLogspace( start, stop[, N][, options] )`][@stdlib/iter/logspace]</span><span class="delimiter">: </span><span class="description">create an iterator which returns evenly spaced numbers on a log scale.</span>
 -   <span class="signature">[`iterMap( iterator, fcn[, thisArg] )`][@stdlib/iter/map]</span><span class="delimiter">: </span><span class="description">create an iterator which invokes a function for each iterated value.</span>
 -   <span class="signature">[`iterMapN( iter0, ...iterator, fcn[, thisArg] )`][@stdlib/iter/mapn]</span><span class="delimiter">: </span><span class="description">create an iterator which transforms iterated values from two or more iterators by applying the iterated values as arguments to a provided function.</span>
 -   <span class="signature">[`iterNoneBy( iterator, predicate[, thisArg] )`][@stdlib/iter/none-by]</span><span class="delimiter">: </span><span class="description">test whether every iterated value fails a test implemented by a predicate function.</span>
@@ -164,18 +158,13 @@ var keys = objectKeys( ns );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string/uncapitalize@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/string/replace@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert/contains@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random/iter/randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var uncapitalize = require( '@stdlib/string/uncapitalize' );
+var replace = require( '@stdlib/string/replace' );
+var contains = require( '@stdlib/assert/contains' );
+var randu = require( '@stdlib/random/iter/randu' );
+var ns = require( '@stdlib/iter' );
 
 // Create a fluent interface for chaining together iterator operations...
 
@@ -234,11 +223,6 @@ while ( true ) {
         break;
     }
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
